@@ -1,0 +1,169 @@
+/* Title (1st Section)*/
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Media (2nd Section)*/
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.hero-description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button{
+    background-color: #3382F6;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.img{
+    width: auto;
+    height: auto;
+}
+
+/* Third Section */
+
+.third-section{
+    padding: 100px;
+}
+
+.third-section-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.third-section-information{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.third-section-card-information{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fourth Section */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quotation{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Fifth Section */
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.call-to-action-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #3382F6;
+    gap: 50px;
+    padding: 10px 50px;
+}
+.call-to-action-interactive-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-interactive-button{
+    display: flex;
+    background-color: #3382F6;
+    outline: white;
+    border-radius: 25px;
+    color: white;
+}
+
+.call-to-action-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+/* Sixth Section */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0px;
+}
