@@ -9,13 +9,15 @@ img{
 }
 
 button{
-    display: flex;
+    /* Remove display flex to center text in button */
     outline: white;
     border-color: white;
     border-radius: 5px;
+    width: 100px;
 }
 
 button p{
+    text-align: center;
     color: white;
 }
 
@@ -52,7 +54,7 @@ button p{
 /* Title (1st Section)*/
 .title{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header-links{
@@ -87,10 +89,16 @@ button p{
 .hero-main-text{
     font-size: 48px;
     font-weight: 900;
+    margin: 0px auto;
 }
 
 .hero-description{
     font-size: 18px;
+    margin: 0px auto;
+}
+
+.sign-up-image{
+    width: 50%;
 }
 
 /* Third Section */
