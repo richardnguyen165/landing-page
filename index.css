@@ -1,8 +1,58 @@
+/* Universal Selector */
+p{
+    font-family: 'Roboto',sans-serif;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+button{
+    display: flex;
+    outline: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+button p{
+    color: white;
+}
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-color{
+    color: white
+}
+
+.cyan-color{
+    background-color: #3382F6;
+}
+
+.dark-blue-background-color{
+    background-color: #1F2937;
+}
+
+.dark-blue-color{
+    color: #1F2937;
+}
+
+.grey-color{
+    color: #E5E7EB;
+}
+
+.white-grey-color{
+    color: #F9FAF8;
+}
+
 /* Title (1st Section)*/
 .title{
     display: flex;
     justify-content: space-evenly;
-    background-color: #1F2937;
 }
 
 .header-links{
@@ -10,23 +60,15 @@
     align-items: center;
     gap: 20px;
     list-style-type: none;
-    color: #E5E7EB;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
 .logo-text{
-    color: #F9FAF8;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Media (2nd Section)*/
 .media{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
     padding: 100px;
 }
 
@@ -45,26 +87,10 @@
 .hero-main-text{
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
 }
 
 .hero-description{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #E5E7EB;
-}
-
-.sign-up-button{
-    background-color: #3382F6;
-    padding: 12px;
-    border-radius: 25px;
-}
-
-.img{
-    width: auto;
-    height: auto;
 }
 
 /* Third Section */
@@ -74,18 +100,15 @@
 }
 
 .third-section-title{
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    color: #1F2937;
     font-size: 36px;
     font-weight: 900;
 }
 
 .third-section-information{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
 }
 
 .third-section-card-information{
@@ -93,13 +116,18 @@
     justify-content: center;
 }
 
+.third-section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Fourth Section */
 
 .quote{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #E5E7EB;
     padding: 50px;
 }
@@ -110,60 +138,58 @@
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color: #1F2937;
-    font-family: 'Roboto', sans-serif;
 }
 
 .author{
     display: flex;
     justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
+    align-self: flex-end
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 50%;
+    padding: 50px 100px;
 }
 
 /* Fifth Section */
 
 .call-to-action{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 .call-to-action-block{
     display: flex;
-    justify-content: center;
-    align-items: center;    
-    background-color: #3382F6;
-    gap: 50px;
-    padding: 10px 50px;
+    gap: 200px;
+    border-radius: 5px;
+    padding: 25px 200px;
 }
+
 .call-to-action-interactive-area{
     display: flex;
     flex-direction: column;
 }
 
-.call-to-action-interactive-button{
+.call-to-action-text-title{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.call-to-action-button{
     display: flex;
-    background-color: #3382F6;
-    outline: white;
-    border-radius: 25px;
-    color: white;
+    justify-content: center;
+    width: 100px;
 }
 
-.call-to-action-text{
-    font-family: 'Roboto', sans-serif;
-    color: white;
+.call-to-action-sign-up{
+    margin-top: 0%;
 }
-
 
 /* Sixth Section */
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    color: white;
-    font-family: 'Roboto', sans-serif;
     padding: 20px 0px;
 }
